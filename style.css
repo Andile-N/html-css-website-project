@@ -19,6 +19,7 @@ body{
 
 /*Navigation bar*/
 .navbar ul{
+    align-items: center;
     text-decoration: none;
     padding: 0px;
     background-color: rgb(51, 58, 66);
@@ -27,6 +28,7 @@ body{
     text-align:center;
 }
 .navbar a{
+    align-items: center;
     color: beige;
    text-align: center;
    text-decoration: none;
@@ -42,6 +44,7 @@ body{
 .navbar li{
     text-decoration: none;
     float: left;
+    align-items: center;
 }
 
 
@@ -82,4 +85,80 @@ img{
 }
 #contact-h3{
     text-align: center;
+}
+/*.box{
+    display: inline-block;
+    background-color: slategrey;
+    box-shadow: 3px 3px rgb(56, 64, 72);
+    box-sizing: border-box;
+    
+}*/
+.contracts-intro{
+    text-align:center;
+    margin-bottom:40px
+    
+}
+.contact-details{
+    background:#ffffff;
+    border:1px solid #e0e0e0;
+    border-radius: 10px;
+    padding:20px;
+    text-align: center;
+
+
+
+
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 0.5rem;
+    float:left;
+    cursor: pointer;
+}
+.contact-details a{
+    color:#2f3e46;
+    font-weight:bold;
+    text-decoration: none;
+}
+.contact-details a:hover{
+    color:slategray;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(aut0-fit, minmax(250px, 1fr));
+    gap:20px;
+    padding: 30px;
+}
+.products-card{
+    background:#ffffff;
+    border:1px solid #e0e0e0;
+    border-radius: 10px;
+    padding:20px;
+    text-align: center;
+
+}
+.products-cards img{
+    width:100%;
+    max-width:200px;
+    margin-bottom: 15px;
+}
+.prize{
+    font-weight:bold;
+    color:#2f3e46;
+    margin:10px 0;
+    
+}
+#button2{
+    cursor: pointer;
+    display:inline-block;
+    background-color:#2f3e46;
+    color:white;
+    padding:10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#button2:hover{
+    background-color: slategrey;
 }
