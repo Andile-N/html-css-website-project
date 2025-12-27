@@ -1,21 +1,41 @@
 <!DOCTYPE html>
-<html>
-    <head>
-          <title>Putse_Plug</title>
-          <link rel="stylesheet" href="style.css">
-    </head>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putse_Plug</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+ </head>
     <body>
            <header>
                  <h1 id="main_heading">Putse_Plug</h1>
            </header>
            <nav class="navbar">
-            <ul>
+            <ul class="nav-links">
                  <a href="index.html"><li>Home</li></a>
                  <a href="about.html"><li>About</li></a>
                  <a href="products.html"><li>Products</li></a>
                  <a href="contact.html"><li>Contact Us</li></a>
             </ul>
-         </nav>
+         </nav> <nav id="hamburger-nav">
+      <div class="logo">Putse_Plug</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+                <li><a href="about.html"onclick="toggleMenu()">About</a></li>
+                <li><a href="products.html"onclick="toggleMenu()">Products</a></li>
+               <!-- <li><a href="#Projects"onclick="toggleMenu()">Projects</a></li>-->
+                <li><a href="contact.html"onclick="toggleMenu()">Contact Us</a></li>
+
+        </div>   
+      </div>     
+    </nav>
+
            
           <img src="images/IMG_7541.webp" alt="Refurbished iPhones" id="img1">
          <section class="home">
@@ -26,7 +46,7 @@
          </section>
 
          <section class="trust">
-         <ul>
+         <ul id="trust1">
             <li>Fully Tested</li>
             <li>Honest Pricing</li>
             <li>Quality Checked</li>
@@ -46,6 +66,7 @@
                         <p class="prize"><b>R10,500</b></p>
                         <a href=""><button id="button2">Contact to buy</button></a>
                   </article>
+                  <br>
                     <article class="products-card">
                         <img src="images/IMG_7537.jpeg" alt="iPhone 11 Refurbished">
                         <h4>iPhone 11</h4>
