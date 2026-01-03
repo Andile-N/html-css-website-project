@@ -11,14 +11,19 @@
            <header>
                  <h1 id="main_heading">Putse_Plug</h1>
            </header>
-           <nav class="navbar">
+  <nav id="desktop-nav">
+        <div class="logo">Putse_Plug</div> 
+        <div>
             <ul class="nav-links">
-                 <a href="index.html"><li>Home</li></a>
-                 <a href="about.html"><li>About</li></a>
-                 <a href="products.html"><li>Products</li></a>
-                 <a href="contact.html"><li>Contact Us</li></a>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
             </ul>
-         </nav> <nav id="hamburger-nav">
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
       <div class="logo">Putse_Plug</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
@@ -27,15 +32,14 @@
             <span></span>
         </div>
         <div class="menu-links">
+                <li><a href="index.html"onclick="toggleMenu()">Home</a></li>
                 <li><a href="about.html"onclick="toggleMenu()">About</a></li>
                 <li><a href="products.html"onclick="toggleMenu()">Products</a></li>
-               <!-- <li><a href="#Projects"onclick="toggleMenu()">Projects</a></li>-->
-                <li><a href="contact.html"onclick="toggleMenu()">Contact Us</a></li>
+                <li><a href="contact.html"onclick="toggleMenu()">Contact</a></li>
 
         </div>   
       </div>     
     </nav>
-
            
           <img src="images/IMG_7541.webp" alt="Refurbished iPhones" id="img1">
          <section class="home">
@@ -79,7 +83,7 @@
        </section>
        <h3>Need help choosing?</h3>
        <p>Chat with us and we'll help you pick the right iPhone.</p>
-       <a href="emailto:andilenx11@gmail.com" target="_blank"><button id="button2">Chat on Gmail</button></a>
+       <a href="contact.html" target="_blank"><button id="button2">Chat</button></a>
            </main>
 
 

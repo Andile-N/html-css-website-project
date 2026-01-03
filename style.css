@@ -21,37 +21,7 @@ body{
 }
 
 
-/*Navigation bar*/
-/*
-.navbar ul{
-    align-items: center;
-    text-decoration: none;
-    padding: 0px;
-    background-color: rgb(51, 58, 66);
-    overflow:hidden;
-    margin: 0px;
-    text-align:center;
-}
-.nav-links a{
-    align-items: center;
-    color: beige;
-   text-align: center;
-   text-decoration: none;
-   display: block;
-   padding: 5px;
-   float:left;
-    
-}
-.nav-links li:hover{
-    background-color: rgb(115, 130, 145);
-    
-}
-.navbar li{
-    text-decoration: none;
-    float: left;
-    align-items: center;
-}
-*/
+
 
 /*Footer*/
 footer{
@@ -170,26 +140,40 @@ nav,
     
     display: flex;
 }
-.nav-links a{
-   
-    color:slategrey;
-  text-decoration: none;
-}
-.nav-links a:hover{
-    color:#ffffff;
-}
-nav {
-    justify-content: space-around;
+
+
+
+
+/*Navigation bar
+
+.navbar ul{
     align-items: center;
-    height:17vh;
+    text-decoration: none;
+    padding: 0px;
+    background-color: rgb(51, 58, 66);
+    overflow:hidden;
+    margin: 0px;
+    text-align:center;
 }
-
-.nav-links{
-    gap: 2rem;
-    list-style: none;
-    font-size: 1.5rem;
+.nav-links a{
+    align-items: center;
+    color: beige;
+   text-align: center;
+   text-decoration: none;
+   display: block;
+   padding: 5px;
+   float:left;
+    
 }
-
+.nav-links li:hover{
+    background-color: rgb(115, 130, 145);
+    
+}
+.navbar li{
+    text-decoration: none;
+    float: left;
+    align-items: center;
+}
 
 
 /* HAMBURGER MENU*/
@@ -272,3 +256,27 @@ nav {
     content: "✔️";
 
  }
+
+ .nav-links a{
+   
+    color:slategrey;
+  text-decoration: none;
+}
+.nav-links a:hover{
+    color:#ffffff;
+}
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height:17vh;
+}
+
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+
+
+
