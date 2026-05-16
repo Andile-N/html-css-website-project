@@ -144,36 +144,6 @@ nav,
 
 
 
-/*Navigation bar
-
-.navbar ul{
-    align-items: center;
-    text-decoration: none;
-    padding: 0px;
-    background-color: rgb(51, 58, 66);
-    overflow:hidden;
-    margin: 0px;
-    text-align:center;
-}
-.nav-links a{
-    align-items: center;
-    color: beige;
-   text-align: center;
-   text-decoration: none;
-   display: block;
-   padding: 5px;
-   float:left;
-    
-}
-.nav-links li:hover{
-    background-color: rgb(115, 130, 145);
-    
-}
-.navbar li{
-    text-decoration: none;
-    float: left;
-    align-items: center;
-}
 
 
 /* HAMBURGER MENU*/
